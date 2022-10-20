@@ -1,0 +1,43 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.header {
+    background-color:blueviolet;
+    height: 100px;
+    width: 400px;
+}
+
+.left{background-color:skyblue;
+    height: 250px;
+    width: 150px;
+}
+.left2{
+    height: 150px;
+    width: 150px;
+}
+.right {
+    height: 250px;
+    width: 250px;
+}
+.yellow{background-color:yellow;
+    height: 50px;
+    width: 150px;
+}
+.sky{background-color:blue;
+    height: 100px;
+    width: 150px;
+}
+.pink{background-color:pink;
+    height: 150px;
+    width: 100px;
+}
+.brown{background-color:brown;
+    height: 100px;
+    width: 250px;
+}
+.footer{background-color:orange;
+    height: 100px;
+    width: 400px;
+}
