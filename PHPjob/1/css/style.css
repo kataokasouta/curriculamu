@@ -1,0 +1,72 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.header{
+    background-color: black;
+    width: 400px;
+    height: 100px;
+    position: relative;
+}
+.box1{
+    background-color:white;
+    width: 160px;
+    height: 60px;
+    position: absolute;
+    top:20px ;
+    left: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box2{
+    background-color: crimson;
+    height: 40px;
+    width: 40px;
+}
+
+.main{
+    height: 250px;
+    width: 400px;
+
+}
+.main1{
+    background-color: aqua;
+    width: 150px;
+    height: 250px;
+    float: left;
+}
+.main2{
+    background-color: brown;
+    width: 250px;
+    height: 250px;
+    float: left;
+    position: relative;
+}
+.main3{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    
+  
+}
+.mainbox1{
+    background-color: orange;
+    width: 140px;
+    height: 40px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 10px;
+    
+
+}
+
+.footer{
+    background-color: coral;
+    width: 400px;
+    height: 100px;
+}
