@@ -1,0 +1,64 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main{
+    width: 1000px;
+    height: 120px;
+}
+.main1{
+    width: 1000px;
+    height: 120px;
+}
+.main2{
+    width: 800px;
+    height: 120px;
+    float: right;
+}
+.image{
+    width:200px ;
+    height: 120px;
+    background-color: aqua;
+    margin: 0px;
+}
+.box1{
+    background-color:#87ceeb;
+    width: 800px;
+    height: 60px;
+    display: flex;
+    margin: 0px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.box2{
+    background-color:#00ffff ;
+    width: 800px;
+    height: 60px;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+th{
+    background-color: #87ceed;
+}
+td{
+    background-color:#e0ffff ;
+}
+.table1{
+    width: 1000px;
+}
+table{
+    border: none;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.footer{
+    background-color: #00ced1;
+    width: 1000px;
+    height:50px ;
+    margin-top: 10px;
+}
