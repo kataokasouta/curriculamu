@@ -1,6 +1,6 @@
+<link rel="stylesheet" href="css/style.css">
 <?php
 $name = $_POST['name'];
-
 $number = ["80","22","20","21"];
 $language= ["PHP","Python","JAVA","HTML"];
 $command = ["join","select","insert","update"];

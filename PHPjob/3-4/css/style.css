@@ -1,0 +1,22 @@
+body{
+    background-color: grey;
+    text-align: center;
+    transform: translate(0,20%);
+    color: white;
+}
+h1.border{
+    border-bottom: 5px solid white;
+}
+
+.p1{
+    text-align: center;
+
+}
+
+.test1{
+    background-color: grey;
+    text-align: center;
+}
+.top{
+    margin-top: 50px;
+}

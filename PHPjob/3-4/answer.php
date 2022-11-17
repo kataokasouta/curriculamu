@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="css/style.css">
 <?php 
 $answer1 =$_POST["answer1"];
 $answer2 =$_POST["answer2"];
