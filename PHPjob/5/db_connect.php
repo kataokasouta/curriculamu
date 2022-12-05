@@ -1,6 +1,6 @@
 <?php
 // DB名
-define('DB_DATABASE', 'YIGroupBlog');
+define('DB_DATABASE', 'checktest5');
 // MySQLのユーザー名
 define('DB_USERNAME', 'root');
 // MySQLのログインパスワード
@@ -20,7 +20,6 @@ function db_connect() {
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         return $pdo;
     } catch(PDOException $e) {
-        echo 'Error: ' . $e->getMessage();
-        die();
     }
 }
+?>

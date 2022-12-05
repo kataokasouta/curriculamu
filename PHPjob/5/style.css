@@ -1,0 +1,126 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+ }
+.sign{
+    text-align: center;
+    margin-top: 300px;
+
+}
+.sign1{
+    text-align: left;
+    display: inline-block;
+}
+
+.name1{
+    width: 512px;
+    height: 48px;
+}
+.password1{
+    margin-top: 20px;
+    width: 512px;
+    height: 48px;
+}
+.submit1{
+   margin-top: 20px; 
+   background-color: aqua;
+   width: 128px;
+   height: 48px;
+}
+.login1{
+    text-align: center;
+    margin-top: 300px;
+}
+.login2{
+    text-align: left;
+    display: inline-block;
+}
+
+.user_sign{
+    margin-left: 80px;
+    width: 160px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+
+}
+.name2{
+    width: 512px;
+    height: 48px;
+    margin-top: 20px;
+}
+.password2{
+    width: 512px;
+    height: 48px;
+    margin-top: 20px;
+}
+.submit2{
+    width: 200px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+}
+.main1{
+    margin-top: 200px;
+    text-align: center;
+}
+.main2{
+    text-align: left;
+    display: inline-block;
+}
+table{
+    width: 800px;
+    height: 500px;
+}
+.create_post{
+    background-color: blue;
+    color: white;
+
+}
+.login_php{
+    background-color: gray;
+    color: white;
+}
+.create1{
+    text-align: center;
+    margin-top: 300px;
+}
+.create2{
+    text-align: left;
+    display: inline-block;
+}
+.title1{
+    width: 300px;
+    height: 48px;
+}
+.data1{
+    width: 300px;
+    height: 48px;
+    margin-top: 20px;
+}
+
+.stock1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 260px;
+    height: 40px;
+}
+
+.submit3{
+    margin-top: 5px;
+    background-color: blue;
+    width: 200px;
+    color: white;
+}
+.delete1{
+    background-color: red;
+    color: white;
+}
+.td4{
+    text-align: center;
+}
+table{
+    margin-top: 30px;
+}
