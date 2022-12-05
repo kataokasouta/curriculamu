@@ -42,9 +42,9 @@ if(empty($_SESSION["user_name"])){
                 <?php while ($row = $stmt -> fetch(PDO::FETCH_ASSOC)) { ?>
                     <tr>
                         <td><?php echo $row['title'];?></td>
-                        <td><?php echo $row['data'];?></td>
+                        <td><?php echo $row['date'];?></td>
                         <td><?php echo $row['stock'];?></td>
-                        <td class = "td4"><button onclick class ="delete1" = "location.href = 'delete_post.php?id=<?php echo $row["id"];?>'>削除</button></td>
+                        <td class = "td4"><button class ="delete1" onclick= "location.href = 'delete_post.php?id=<?php echo $row['id'];?>'">削除</button></td>
                     </tr>
                 <?php } ?>
             </table>

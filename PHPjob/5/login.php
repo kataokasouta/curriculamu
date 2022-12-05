@@ -52,7 +52,7 @@ if(!empty($_POST)){
     <body>
     <div class = "login1">
         <div class = "login2">
-                <h1 class = "login3">ログイン画面 <button onclick = "location.href ='Sign.php'" class = "user_sign">新規ユーザー登録</button><h1>
+                <h1 class = "login3">ログイン画面 <button onclick = "location.href ='SignUp.php'" class = "user_sign">新規ユーザー登録</button><h1>
                 <form = method = "post" action "">
                 <input type = "text" name ="name"  class = "name2" placeholder = "ユーザー名"><br>
                 <input type = "password" name = password   class = "password2" placeholder = "パスワード"><br>
