@@ -50,8 +50,6 @@
     position: absolute;
     top: 40px;
     left: 40px;
-    
-  
 }
 .mainbox1{
     background-color: orange;
@@ -60,9 +58,7 @@
     border-width: 5px;
     border-style: solid;
     border-color: white;
-    margin-top: 10px;
-    
-
+    margin-bottom: 10px;
 }
 
 .footer{
