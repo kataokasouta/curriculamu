@@ -43,7 +43,15 @@ $post_data = $getData->getPostData();
     <tr>
         <td><?php echo $value['id'];?></td>
         <td><?php echo $value['title'];?></td>
-        <td><?php echo $value['category_no'];?></td>
+        <td><?php 
+                if($value['category_no']==1){
+                    echo "食事";
+                }else if($value['category_no']==2){
+                    echo "旅行";
+                }else{
+                    echo "その他";
+                }
+        ?></td>
         <td><?php echo $value['comment'];?></td>
         <td><?php echo $value['created'];?></td>
     </tr>
@@ -55,5 +63,5 @@ $post_data = $getData->getPostData();
 </body>
 </html>
 
-http://localhost/LetsEngineer/curriculum/PHPjob/4-2/index.php
+http://localhost:8888/LetsEngineer/curriculum/PHPjob/4-2/index.php
 
