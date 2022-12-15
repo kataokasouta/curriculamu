@@ -21,30 +21,36 @@
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="body"placeholder = "いまどうしてる？" value="{{ old('body') }}">
                             <input type="hidden" name="user_id" value ="{{Auth::user()->id}}">
-                            @csrf
+                            {{csrf_field()}}
                             <input type = "submit" class="btn btn-primary" value="つぶやく">
                         </div>
                     </div>
-                </form>
+                    </form>
                 @foreach($posts as $post)
                    @foreach($users as $user)
-                   <table>
+                  <div>
                     <div class = "box1">
-                        @if($user->id == $post->user_id)
-                        <div>{{$user->name}}</div>
-                        <div>{{$post->created_at}}</div>
-                        <div>{{$post->body}}</div>
-                        @if(Auth::id()== $post->user_id)
-                        <div>
-                            <a href="{{ action('Admin\NewsController@delete', ['id' => $post->id]) }}">削除</a>
+                        <div class = "box2">
+                            @if($user->id == $post->user_id)
+                            <div>{{$user->name}}</div>
+                            <div>{{$post->created_at}}</div>
+                            <div>{{$post->body}}</div>
+                                @if(Auth::id()== $post->user_id)
+                                <div>
+                                    <a href="{{ action('Admin\NewsController@delete', ['id' => $post->id]) }}">削除</a>
+                                </div>
+                                @endif
+                            @endif
                         </div>
-                        @endif
-                        @endif
                     </div>
-                    </table>
                     @endforeach
+                    </div>  
                 </div>
                 @endforeach
         </div>
     </div>
 @endsection
+                
+
+
+
