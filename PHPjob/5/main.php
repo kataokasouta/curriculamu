@@ -29,7 +29,7 @@ if(empty($_SESSION["user_name"])){
 <body>
     <div class = "main1">
         <div class = "main2">
-            <h1>在庫一覧画面</h1>
+            <h1>在庫一覧</h1>
             <button onclick = "location.href = 'create_post.php'" class = "create_post">新規登録</button>
             <button onclick  = "location.href = 'login.php'" class = "login_php">ログアウト</button>
             <table border = 2>
